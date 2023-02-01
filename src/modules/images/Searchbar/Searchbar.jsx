@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import PropTypes from 'prop-types';
 
 import styles from './Searchbar.module.scss';
