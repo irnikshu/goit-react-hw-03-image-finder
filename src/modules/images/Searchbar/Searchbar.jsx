@@ -1,5 +1,5 @@
 import { Component } from 'react';
-// import axios from 'axios';
+
 import PropTypes from 'prop-types';
 
 import styles from './Searchbar.module.scss';
@@ -55,10 +55,12 @@ class Searchbar extends Component {
               value={search}
               onChange={handleChange}
               className={styles.input}
+              name="search"
               type="text"
               autoComplete="off"
               autoFocus
               placeholder="Search images and photos"
+              required
             />
           </form>
         </header>

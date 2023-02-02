@@ -1,4 +1,4 @@
-import SearchImages from '../modules/images/SearcImages';
+import SearchImages from '../modules/images/SearchImages';
 
 export const App = () => {
   return (
