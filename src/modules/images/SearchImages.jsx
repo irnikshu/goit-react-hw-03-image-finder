@@ -3,11 +3,11 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { Component } from 'react';
 import Searchbar from './Searchbar/Searchbar';
 import ImageGallery from './ImageGallery/ImageGallery';
-import { getSearchImages } from './Fetch/Fetch';
-import Loader from './Loader/Loader';
+import { getSearchImages } from '../../shared/services/Fetch/Fetch';
+import Loader from '../../shared/components/Loader/Loader';
 import Modal from '../../shared/components/Modal/Modal';
 import ModalDetails from '../../shared/components/Modal/ModalDetails';
-import Button from './Button/Button';
+import Button from '../../shared/components/Button/Button';
 
 class SearchImages extends Component {
   state = {

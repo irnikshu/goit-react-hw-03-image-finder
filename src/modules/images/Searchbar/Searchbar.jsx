@@ -25,21 +25,6 @@ class Searchbar extends Component {
     this.setState({ search: '' });
   }
 
-  // componentDidMount() {}
-  // this.setState({ loading: true });
-  // axios
-  //   .get(
-  //     'https://pixabay.com/api/?q=cat&page=1&key=31927984-d7f8c8a904e38a53072577433&image_type=photo&orientation=horizontal&per_page=12'
-  //     // 'https://jsonplaceholder.typicode.com/posts'
-  //   )
-  //   .then(({ data }) => {
-  //     this.setState({ items: data });
-  //   })
-  //   .catch(error => {
-  //     this.setState({ error: error.mesage });
-  //   })
-  //   .finally(() => this.setState({ loading: false }));
-
   render() {
     const { search } = this.state;
     const { handleChange, handleSubmit } = this;
